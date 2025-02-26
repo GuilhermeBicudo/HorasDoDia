@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Cabeça do html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Períodos do dia</title>
+    <!-- Ligação com o documento CSS -->
+    <link rel="stylesheet" href="períodoDodia.css">
+</head>
+<!-- Corpo do html -->
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Períodos do dia</h1>
+    </header>
+    <!-- Formulário do horário -->
+    <form>
+        <h3>Verificador de horário</h3>
+        <!-- Função para inserir os dados -->
+        <label>
+            <p> &#9200; Horários &#9200;
+                <input type="number" id="num" placeholder="Digite que horas são:" />
+            </p>
+        </label>
+        <!-- Função dos botões -->
+        <label>
+            <!-- Input verificar com a função onclick -->
+            <input type="button" id="Ver" value="Verificar" onclick="Verificar()" />
+            <!-- Input resetar com a função onclick -->
+            <input type="reset" id="Reset" value="Resetar" onclick="Resetar()" />
+            <!-- Criado classe res para exibir a resposta ao usuário -->
+            <div class="res"></div>
+        </label>
+    </form>
+    <!-- Ligação com o documento JavaScript -->
+    <script src="períodoDodia.js"></script>
+    <footer>&copy; Feito por Guilherme</footer>
+</body>
+
+</html>
