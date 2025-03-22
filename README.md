@@ -4,7 +4,7 @@
 
 <h2 align="left">📋 Detalhes do Projeto</h2>
 
-<p align="left"> 🔁 Utilizei a estrutura lógica de condição aninhada if e else para realizar a verificação do período do dia.<br> 
+<p align="left"> 🔁 Utilizei a estrutura lógica de condição aninhada (if e else) para realizar a verificação do período do dia.<br> 
 💻 Linguagens utilizadas: HTML, CSS e JavaScript.<br> 📖 Baseado no conteúdo do curso em vídeo do Professor Gustavo Guanabara. </p>
 
 <h2 align="left">📸 Imagens do Projeto</h2>
